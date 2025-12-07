@@ -6,7 +6,7 @@ function rust_init
     fish_add_path $HOME/.cargo/bin
 
     # Abbrevations
-    abbr build "cargo lbuild"
-    abbr run "cargo lrun"
+    abbr build "cargo build"
+    abbr run "cargo run"
     abbr clippy "cargo clippy --workspace --all-targets --all-features -- -D warnings"
 end
