@@ -6,6 +6,6 @@ function export_ai_api_keys --argument-names path variable_name
     set -l value (string trim (cat $path))
 
     if test -n "$value"
-        set -x -- $variable_name $value
+        set -gx -- $variable_name $value
     end
 end
