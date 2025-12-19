@@ -8,8 +8,10 @@ function devcontainer_init
     abbr dbnc   "devcontainer build --remove-existing-container --build-no-cache --workspace-folder ."
 
     # Up / down
+    abbr dstart "devcontainer up --workspace-folder ."
     abbr dup    "devcontainer up --workspace-folder ."
     abbr dstop  'docker stop $(docker ps -a -q)'
+    abbr ddown  'docker stop $(docker ps -a -q)'
 
     # Connect
     abbr dsh    "devcontainer exec --workspace-folder . /bin/bash"
