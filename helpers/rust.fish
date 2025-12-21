@@ -13,6 +13,11 @@ function rust_install --argument-names quiet
         set parts (string split ';' $tool)
         set bin $tool
         set pkg $tool
+        set first_char (string sub -s 1 -l 1 $bin)
+
+        if test "$first_char" = '#'
+            continue
+        end
 
         if test (count $parts) -gt 1
             set bin $parts[1]
