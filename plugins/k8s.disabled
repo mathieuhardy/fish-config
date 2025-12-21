@@ -6,5 +6,3 @@ function k8s_init
     abbr shell "kubectl exec -it $K8S_POD -- bash"
     abbr kenv "kubectl exec -it $K8S_POD -- env"
 end
-
-

@@ -1,4 +1,5 @@
 function devcontainer_init
+    # Install devcontainer CLI
     if not type -q devcontainer
         sudo npm install -g @devcontainers/cli@latest 1>/dev/null
     end
