@@ -13,6 +13,7 @@ function git_init
     abbr ci          'git commit'
     abbr amend       'git commit --amend'
     abbr co          'git checkout'
+    abbr sw          'git switch'
     abbr hard        'git reset --hard'
     abbr rebase      'git rebase'
     abbr abort       'git rebase --abort'
