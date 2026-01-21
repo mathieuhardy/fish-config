@@ -13,6 +13,7 @@ function global_init
     abbr grep     'egrep'
 
     abbr l        'lsd --group-directories-first -h -l'
+    abbr ll       'lsd --group-directories-first -h -l'
     abbr m        'lsd --group-directories-first -h -l'
     abbr ù        'lsd --group-directories-first -h -l'
     abbr la       'lsd --group-directories-first -h -l -a'
