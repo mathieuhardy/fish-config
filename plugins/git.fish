@@ -7,6 +7,7 @@ function git_init
     abbr fetch      'git fetch'
     abbr pull       'git pull --rebase --tags --prune'
     abbr push       'git push'
+    abbr pusho      'git push -u origin $(git rev-parse --abbrev-ref HEAD)'
     abbr please     'git push --force-with-lease'
     abbr pick       'git cherry-pick'
 
