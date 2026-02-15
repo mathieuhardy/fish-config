@@ -1,5 +1,5 @@
-bat
-btm;bottom
+#bat
+#btm;bottom
 #cargo-audit
 #cargo-expand
 #cargo-geiger
@@ -9,11 +9,11 @@ btm;bottom
 #cargo-nextest
 #cargo-tarpaulin
 #cargo-upgrades
-fd;fd-find
-lsd
+#fd;fd-find
+#lsd
 #oha
-rg;ripgrep
+#rg;ripgrep
 #so
 #sqlx;sqlx-cli
-starship
-tokei
+#starship
+#tokei
