@@ -31,7 +31,7 @@ function global_init
     abbr ee       'nvim'
     abbr see      'sudo -E nvim'
 
-    abbr rm       'trash'
+    abbr rm       'trash put'
 
     abbr todo     'rg --smart-case --no-heading --sort path TODO'
 
