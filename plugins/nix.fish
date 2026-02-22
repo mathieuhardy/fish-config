@@ -7,7 +7,7 @@ function nix_init
     abbr ngc  'sudo nix-collect-garbage'
 
     abbr np   'nix-env --query'
-    abbr ni   'nix-env --install'
+    abbr ni   'nix-env --install -A nixos.'
     abbr nu   'nix-env --uninstall'
     abbr nr   'nix run nixpkgs#'
 
