@@ -4,7 +4,7 @@ function global_init
     abbr fs       'find . -name "*.xml" -exec egrep -niH --color "toto" "{}" \;'
 
     abbr j        'jobs'
-    abbr pg       'ps aux | grep'
+    abbr pg       'pgrep -a'
 
     abbr c        'clear'
     abbr e        'exit'

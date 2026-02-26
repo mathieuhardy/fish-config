@@ -31,6 +31,7 @@ function git_init
 'git log'\
 " --pretty=format:'%C(yellow)[%H]%Creset %C(green)[%ai] %C(blue)[%an] %C(red) %d%Creset"\
 " - %s' --abbrev-commit -20"
+    abbr gb          'git-branch-checker'
 
     abbr pop         'git stash pop'
     abbr stash       'git stash'
